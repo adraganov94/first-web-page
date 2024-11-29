@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.topcontainer {
+    background-color: black;
+    position: relative; /* Sets the container as a reference for positioning child elements */
+    width: 100%; /* Full width or set a fixed width */
+    height: 400px; /* Adjust height to match the image size or design */
+    overflow: hidden; /* Ensures content doesn't overflow the container */
+    margin-bottom: 30px;
+}
+
+.middlecontainter {
+    margin: 20px 0 20px 0;
+}
+
+
+
+h1 {
+    color: white;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 4rem;
+    position: relative; /* Allows precise placement over the image */
+    z-index: 2; /* Ensures the heading appears above the image */
+    text-align: center;
+    top: 130px;
+}
+§
+.skills {
+    background-color: #f8f7f2;
+}
+
+.skillstitles {
+    list-style: none;
+    color: rgb(0, 0, 0);
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2rem;
+    background-color: #ffed00;
+    display: inline;
+    vertical-align: center;
+}
+
+
+.backgroundimg {
+    width: 100%; /* Makes the image fit the container's width */
+    height: 100%; /* Ensures the image fills the container */
+    object-fit: cover; /* Ensures the image maintains aspect ratio */
+    position: absolute; /* Positions the image within the container */
+    top: 0; /* Aligns the image to the top */
+    left: 0; /* Aligns the image to the left */
+    z-index: 1; /* Places the image behind other elements */
+}
+.backgroundimg2 {
+    width: 100%; /* Makes the image fit the container's width */
+    height: 100%; /* Ensures the image fills the container */
+    object-fit: cover; /* Ensures the image maintains aspect ratio */
+    position: absolute; /* Positions the image within the container */
+    top: 0; /* Aligns the image to the top */
+    left: 0; /* Aligns the image to the left */
+    z-index: 1; /* Places the image behind other elements */
+    opacity: 10%;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 4rem;
+    text-align: center;
+    padding: 10px;
+}
+
+.editor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0 20px 0;
+}
+.webdev {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0 20px 0;
+}
+.gym {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0 20px 0;
+}
+
+.skillstitles{
+    margin: 10px;
+    padding: 0px 10px;
+}
+
+.yellowbackground {
+text-align: center;
+margin-top: 30px;
+margin-bottom: 20px;
+
+}
+
+.profilephoto {
+    height: 300px;
+    display: block;
+    padding: inherit;
+    margin: auto;
+    text-align: center;
+    
+
+
+}
+
+ul {
+    list-style: none;
+    display: flex;   
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+
+li {
+    padding: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.5rem;
+    display: flex;
+    gap: 15px;
+
+}
+
+
+p.introduction {
+    list-style: none;
+    color: rgb(0, 0, 0);
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+h2.main {
+    background-color: #ffed00;
+    margin: 30px 0 30px 0;
+}
+
+h2.introduction {
+    margin: 30px 0px 30px 0px;
+}
+ 
+span {
+    color: red;
+    font-weight: 1000;
+}
+
+.bottomcontainer {
+    background-color: #ffed00;
+    margin: 30px 0 0 0;
+    padding-bottom: 30px;
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.web {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contacticons {
+  height: 40px;
+}
+
+p.footer {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1rem;
+
+}
+
+@media (max-width: 700px) {
+    h1 {
+        text-align: center;
+        line-height: 4rem;
+    }
+
+}
